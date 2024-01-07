@@ -12,7 +12,7 @@ function App() {
         .then(data => setStories(data.hits.slice(0, 20)));
     }
   }, [search]);
-
+ 
   const handleSearchChange = (event) => {
     setSearch(event.target.value);
   };
